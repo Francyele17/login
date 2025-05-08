@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f7f5fc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('foto13.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+ 
+  
+  .login-container {
+    background-color: #ffffff;
+    border: 1px solid #e0dcef;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(120, 105, 155, 0.1);
+  }
+ 
+  .form-box {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 300px;
+  }
+ 
+  .form-box h2 {
+    text-align: center;
+    color: #6a5acd;
+    margin-bottom: 10px;
+  }
+ 
+  .form-box label {
+    font-weight: bold;
+    color: #5a4c8d;
+  }
+ 
+  .form-box input {
+    padding: 10px;
+    border: 1px solid #cfc4ec;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #f8f7fc;
+  }
+ 
+  .buttons {
+    display: flex;
+    justify-content: space-between;
+  }
+ 
+  .form-box button {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 48%;
+    background-color: #6a5acd;
+    color: white;
+    transition: background 0.3s ease;
+  }
+ 
+  .form-box button:hover {
+    background-color: #5848b0;
+  }
+ 
+  .form-box a {
+    text-align: center;
+    margin-top: 10px;
+    color: #6a5acd;
+    text-decoration: none;
+    font-size: 14px;
+  }
+ 
+  .form-box a:hover {
+    text-decoration: underline;
+  }
+ 
